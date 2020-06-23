@@ -3,11 +3,11 @@ class StoreAdminController < ApplicationController
     def home
     end 
 def orders
-    render :admin => "static"
+    render :layout => "order_administration"
 end
 
 def invoice
-    render :layout => "false"
+    render :layout => false
 end 
 end
 
